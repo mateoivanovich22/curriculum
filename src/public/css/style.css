@@ -340,8 +340,8 @@ html, body {
 
 .card {
     width: 45%;
-    /* height: 80%; */
-    height: 87%;
+    /* height: 87%; */
+    height: 94%;
     background: #171717;
     transition: 1s ease-in-out;
     clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
@@ -1649,6 +1649,21 @@ a {
 
 
 
+    .imgAndTitle {
+        display: flex;
+        align-items: center;
+        width: 63%;
+        height: 13%;
+        justify-content: space-around;
+    }
+
+    .textAboutMe {
+        font-size: 19px;
+        padding: 22px;
+        color: white;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+        font-family: cursive;
+    }
 
 
     .title {
@@ -1666,16 +1681,17 @@ a {
 
 
     .logoImg {
-        width: 75px;
-        height: 75px;
+        width: 71px;
+        height: 62px;
     }
 
 
     .delayed-content {
-        display: none;
-        height: auto;
+        display: flex;
+        /* height: auto; */
         flex-direction: column;
         align-items: center;
+        justify-content: space-around;
     }
 
     /* .card {
@@ -1733,8 +1749,35 @@ a {
 
     /* ABOUT ME */
 
+/* I am writing to express my strong interest in the Junior Web Developer position, as advertised on "Phoenix LLC- Staffing & Recruitment Agency". As a soon-to-be graduate with a Bachelor's degree in Software Engineering and a strong foundation in both front-end and back-end development, I am excited about the opportunity to contribute to your team.
 
+I am currently in the final stages of completing my Bachelor's degree in Software Engineering, and my academic journey has equipped me with a deep understanding of software engineering principles, problem-solving skills, and a passion for cutting-edge technologies. My qualifications align closely with the requirements for this position, including:
 
+- Proven experience as a Full Stack Developer, collaborating with development teams to design, develop, and maintain responsive and interactive websites. My previous work on projects has given me firsthand experience in this area.
+
+- Proficiency in both front-end and back-end technologies, including HTML, CSS, JavaScript, and server-side programming languages like node js, python, javascript, c/c++, etc.
+
+- A commitment to writing clean, efficient, and well-documented code, reflecting my dedication to code quality and maintainability.
+
+- A track record of participating in code reviews and providing constructive feedback to improve code quality and adherence to best practices.
+
+- Strong troubleshooting and debugging skills to ensure optimal website performance and a seamless user experience.
+
+- A proactive approach to staying up-to-date with emerging web technologies and industry trends.
+
+- Effective communication skills with team members, which are vital for successful project completion and collaboration.
+
+I am eager to contribute my skills and experience to help the company achieve its goals.
+
+I am excited about the opportunity to transition from a student to a professional Developer, and I am confident that my academic achievements, technical skills, and passion for software development make me a valuable addition to your team.
+
+Thank you for considering my application. I look forward to the opportunity to further discuss how my skills and experiences align with your company's vision. Please find my resume attached for your review.
+
+Sincerely,
+
+Mateo Ivanovich
+mateoivanovich43@gmail.com
+https://curriculum-gules.vercel.app/ (web cv) */
 
 
 
@@ -1745,7 +1788,6 @@ a {
         /* padding: 17px; */
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-family: cursive;
         margin: 20px;
     }
 
@@ -2078,4 +2120,83 @@ a {
         gap: 12px;
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
     }
+}
+
+
+
+@media (max-width: 422px) {
+
+    .description {
+        margin-top: 14px;
+        font-size: 36px;
+        color: #fff;
+        font-family: 'AR One Sans', sans-serif;
+    }
+
+    .navButton {
+        color: white;
+        text-decoration: none;
+        font-size: 27px;
+        border: none;
+        background: none;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        width: 260px;
+        height: 105px;
+        text-decoration: underline;
+    }
+
+}
+
+
+@media (max-width: 345px) {
+    .description {
+        margin-top: 14px;
+        font-size: 30px;
+        color: #fff;
+        font-family: 'AR One Sans', sans-serif;
+    }
+}
+
+@media (max-width: 290px) {
+
+    .description {
+        margin-top: 14px;
+        font-size: 26px;
+        color: #fff;
+        font-family: 'AR One Sans', sans-serif;
+    }
+
+}
+
+@media (max-width: 245px) {
+
+    .description {
+        margin-top: 14px;
+        font-size: 22px;
+        color: #fff;
+        font-family: 'AR One Sans', sans-serif;
+    }
+
+    .navButton {
+        color: white;
+        text-decoration: none;
+        font-size: 23px;
+        border: none;
+        background: none;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        width: 260px;
+        height: 105px;
+        text-decoration: underline;
+    }
+
+    .circular-image {
+        width: 155px;
+        height: 185px;
+        border: 3px solid #f44336;
+        border-radius: 30%;
+        overflow: hidden;
+    }
+
 }
