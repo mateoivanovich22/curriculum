@@ -333,8 +333,8 @@ html, body {
     font-size: 19px;
     padding: 24px;
     color: white;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-family:cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 
 }
 
@@ -1372,8 +1372,7 @@ a {
         font-size: 18px;
         padding: 17px;
         color: white;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-        font-family: cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 
@@ -1569,7 +1568,24 @@ a {
 
 
 
+    .studies {
+        display: flex;
+        /* grid-template-columns: repeat(3, 1fr); */
+        grid-template-rows: repeat(3, 1fr);
+        gap: 2px;
+        /* width: 94%; */
+        /* height: 62%; */
+        background: rgb(23, 23, 23, 1);
+        border: 3px solid black;
+        /* border-radius: 5%; */
+        margin-bottom: 96px;
+        flex-direction: column;
+    }
 
+    .square:hover {
+        transform: scale(1.2); /* Agranda y centra la imagen */
+        z-index: 1; /* Coloca la imagen en la parte superior */
+    }
 
     .h1Certificates{
         display: flex;
@@ -1620,21 +1636,6 @@ a {
         color: white;
         font-size: 31px;
     }
-
-
-    .studies {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(3, 1fr);
-        gap: 2px;
-        /* width: 94%; */
-        /* height: 62%; */
-        background: rgb(23, 23, 23, 1);
-        border: 3px solid black;
-        /* border-radius: 5%; */
-        margin-bottom: 96px;
-    }
-
 }
 
 
@@ -1661,8 +1662,7 @@ a {
         font-size: 19px;
         padding: 22px;
         color: white;
-        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-        font-family: cursive;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
 
