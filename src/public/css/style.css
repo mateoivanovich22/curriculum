@@ -164,6 +164,7 @@ html, body {
     align-items: center;
     flex-direction: row;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%);
+
 }
 
 
@@ -334,8 +335,7 @@ html, body {
     padding: 24px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-
+    hyphens: manual;
 }
 
 .card {
@@ -627,8 +627,21 @@ a {
     display: flex;
     padding: 30px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
+
+.containerProjects{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%);
+    
+}
 
 
 
@@ -1228,6 +1241,14 @@ a {
     animation: slide-in-top 0.3s both;
 }
 
+
+.titleAndProjects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @keyframes slide-in-top {
     0% {
       transform: translateY(-50px);
@@ -1373,6 +1394,7 @@ a {
         padding: 17px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        hyphens: manual;
     }
 
 
@@ -1439,7 +1461,19 @@ a {
         margin-bottom: 96px;
     }
 
+    /* PROJECTS */
 
+    .containerProjects{
+        height: auto;
+        width: auto;
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(2,0,36,1) 100%);
+    }
 
 
 
@@ -1638,6 +1672,78 @@ a {
     }
 }
 
+@media (max-height:800px){
+    .imgAndTitle {
+        display: flex;
+        align-items: center;
+        /* width: 63%; */
+        /* height: 13%; */
+        justify-content: space-around;
+    }
+
+    .cardAptitudes {
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(7px);
+        -webkit-backdrop-filter: blur(7px);
+        border-radius: 10px;
+        padding: 2rem;
+        margin: 1rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card span {
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        display: block;
+        font-size: 46px;
+    }
+
+    .textAboutMe {
+        font-size: 16px;
+        padding: 16px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        hyphens: manual;
+    }
+
+    .logoImg {
+        /* width: 71px; */
+        /* height: 62px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleAptitudes {
+        color: white;
+        margin-top: 6px;
+        font-size: 16px;
+    }
+
+    .logoImg {
+        width: 53px;
+        height: 53px;
+    }
+
+
+    /*  contact */
+
+    .inputEmailInterview {
+        border: none;
+        padding: 0.7rem;
+        border-radius: 1rem;
+        background: #e8e8e8;
+        box-shadow: 20px 20px 60px #c5c5c5, -20px -20px 60px #ffffff;
+        transition: 0.3s;
+        margin-bottom: 5px;
+    }
+}
 
 @media (max-height:1000px){
 
@@ -1658,12 +1764,13 @@ a {
         justify-content: space-around;
     }
 
-    .textAboutMe {
+    /* .textAboutMe {
         font-size: 19px;
         padding: 22px;
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
+        hyphens: manual;
+    } */
 
 
     .title {
@@ -1680,10 +1787,10 @@ a {
 
 
 
-    .logoImg {
+    /* .logoImg {
         width: 71px;
         height: 62px;
-    }
+    } */
 
 
     .delayed-content {
@@ -1788,6 +1895,7 @@ https://curriculum-gules.vercel.app/ (web cv) */
         /* padding: 17px; */
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        hyphens: manual;
         margin: 20px;
     }
 
