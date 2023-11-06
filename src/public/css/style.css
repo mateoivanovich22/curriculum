@@ -1852,47 +1852,8 @@ a {
     }
 
 
-
-
-    /* ABOUT ME */
-
-/* I am writing to express my strong interest in the Junior Web Developer position, as advertised on "Phoenix LLC- Staffing & Recruitment Agency". As a soon-to-be graduate with a Bachelor's degree in Software Engineering and a strong foundation in both front-end and back-end development, I am excited about the opportunity to contribute to your team.
-
-I am currently in the final stages of completing my Bachelor's degree in Software Engineering, and my academic journey has equipped me with a deep understanding of software engineering principles, problem-solving skills, and a passion for cutting-edge technologies. My qualifications align closely with the requirements for this position, including:
-
-- Proven experience as a Full Stack Developer, collaborating with development teams to design, develop, and maintain responsive and interactive websites. My previous work on projects has given me firsthand experience in this area.
-
-- Proficiency in both front-end and back-end technologies, including HTML, CSS, JavaScript, and server-side programming languages like node js, python, javascript, c/c++, etc.
-
-- A commitment to writing clean, efficient, and well-documented code, reflecting my dedication to code quality and maintainability.
-
-- A track record of participating in code reviews and providing constructive feedback to improve code quality and adherence to best practices.
-
-- Strong troubleshooting and debugging skills to ensure optimal website performance and a seamless user experience.
-
-- A proactive approach to staying up-to-date with emerging web technologies and industry trends.
-
-- Effective communication skills with team members, which are vital for successful project completion and collaboration.
-
-I am eager to contribute my skills and experience to help the company achieve its goals.
-
-I am excited about the opportunity to transition from a student to a professional Developer, and I am confident that my academic achievements, technical skills, and passion for software development make me a valuable addition to your team.
-
-Thank you for considering my application. I look forward to the opportunity to further discuss how my skills and experiences align with your company's vision. Please find my resume attached for your review.
-
-Sincerely,
-
-Mateo Ivanovich
-mateoivanovich43@gmail.com
-https://curriculum-gules.vercel.app/ (web cv) */
-
-
-
-
-
     .textAboutMe {
         font-size: 13px;
-        /* padding: 17px; */
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         hyphens: manual;
@@ -2218,8 +2179,6 @@ https://curriculum-gules.vercel.app/ (web cv) */
     
 
     .cardRedes {
-        /* width: 449px; */
-        /* height: 157px; */
         background-color: rgb(238, 238, 238);
         display: flex;
         align-items: center;

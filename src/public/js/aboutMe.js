@@ -27,12 +27,12 @@ buttonBack.addEventListener("click", () => {
 const button = document.querySelector(".button")
 
 button.addEventListener("click", () => {
-  const filePath = '/img/Profile.pdf';
+  const filePath = '/img/Profile-linkedin.pdf';
 
   const link = document.createElement('a');
   link.href = filePath;
   link.target = '_blank'; 
-  link.download = 'Profile.pdf'; 
+  link.download = 'Profile-linkedin.pdf'; 
 
   link.click();
 })
