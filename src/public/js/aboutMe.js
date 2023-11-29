@@ -27,7 +27,7 @@ buttonBack.addEventListener("click", () => {
 const button = document.querySelector(".button")
 
 button.addEventListener("click", () => {
-  const filePath = '/img/Profile-linkedin.pdf';
+  const filePath = '/img/Curriculum-Ivanovich.pdf';
 
   const link = document.createElement('a');
   link.href = filePath;
