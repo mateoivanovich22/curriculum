@@ -1704,6 +1704,10 @@ a {
     }
 }
 
+.titleAptitudes {
+    margin-top: 11px;
+}
+
 @media (max-height:800px){
     .imgAndTitle {
         display: flex;
